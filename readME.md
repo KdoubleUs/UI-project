@@ -8,7 +8,7 @@ A simple hamburger navigation user-interface. I fetch data from a weather API th
 
 ## Getting Started
 
-Fork and Clone the repository.
+Fork and Clone the repository. Load the HTML file on the browser.
 
 ### Dependencies
 
