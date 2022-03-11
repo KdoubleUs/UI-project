@@ -1,12 +1,14 @@
-# Project Title
+# Hamburger UI Projects
 
 Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+A simple hamburger navigation user-interface. I fetch data from a weather API that provides weather information from particular state.
 
 ## Getting Started
+
+Fork and Clone the repository.
 
 ### Dependencies
 
@@ -20,8 +22,7 @@ An in-depth paragraph about your project and overview of use.
 
 ### Executing program
 
-- How to run the program
-- Step-by-step bullets
+Fork and clone the repository. Simply click on the hamburger and a nav selection will slide from the right to the left. Click on one of the link of the city and weather data will appear on the page. The image will change base on the weather.
 
 ```
 code blocks for commands
@@ -31,16 +32,17 @@ code blocks for commands
 
 Any advise for common problems or issues.
 
-```
+```I will definetly refactor the code in the future to make it more cleaner.
 command to run if program contains helper info
 ```
 
 ## Authors
 
+Kevin Wu
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+https://github.com/robertoduessmann/weather-api
+https://goweather.herokuapp.com/weather/Curitiba
 
 ## Version History
 
