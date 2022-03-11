@@ -1,0 +1,162 @@
+/* * {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+} */
+/* body {
+  font-family: sans-serif;
+  background-color: white;
+}
+/* nav {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  border-style: solid;
+  border-color: white;
+  background-color: grey;
+} */
+/* #bar {
+  display: flex;
+  flex-direction: row;
+} */
+/* #bar ul {
+  position: relative;
+} */
+
+/* #list {
+  color: black;
+  font-size: 10px;
+  display: flex;
+  flex: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+}
+nav {
+  display: block;
+  position: block;
+  height: 80px;
+  width: 100%;
+  border-color: white;
+  background-color: grey;
+}
+#title {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 2em;
+  color: yellow;
+  z-index: 5;
+}
+.list {
+  position: absolute;
+  z-index: 10;
+  width: 300px;
+  height: 500px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+  justify-content: space-around;
+  top: 0;
+  /* right: 0; */
+  /* top: -200px; */
+  right: -800px;
+  margin-top: 80px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+
+  /* overflow: hidden; */
+  /* float: right; */
+}
+/* .list:hover {
+  right: inherit;
+  right: 0;
+} */
+
+li a {
+  display: block;
+  text-decoration: none;
+}
+.line {
+  background-color: white;
+  width: 60px;
+  height: 10px;
+  margin-top: 8px;
+}
+
+.hamburger {
+  position: relative;
+  float: right;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.hamburger:hover {
+  transform: rotate(90deg) scale(0.6);
+  transition-duration: 0.5s;
+}
+.container-image {
+  display: block;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.day {
+  position: relative;
+  text-align: center;
+}
+
+.textContainer {
+  text-align: center;
+}
+#main-image {
+  position: relative;
+  /* position: absolute; */
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 3em;
+  border-radius: 20px;
+}
+.cloud {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 12.5em;
+  color: white;
+  font-size: 25px;
+}
+.fa .fa-cloud {
+  position: absolute;
+  z-index: -10;
+  margin-left: 100px;
+}
+
+/* .images {
+  transition: 5000ms;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+} */
+/* img {
+  position: absolute;
+} */

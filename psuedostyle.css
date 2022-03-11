@@ -1,0 +1,23 @@
+.hamburger:hover {
+    transform: rotate(90deg) scale(0.8);
+    transition-duration: 0.3s;
+  }
+  .hamburger:hover #line1 {
+    position: absolute;
+    transform: rotate(230deg) scale(0.5);
+    transition-delay: 0.8s;
+    margin-right: 500px;
+    margin-top: 30px;
+    /* transition-duration: 1s; */
+  }
+  .hamburger:hover #line2 {
+    display: none;
+  }
+  .hamburger:hover #line3 {
+    position: absolute;
+    transform: rotate(-230deg) scale(0.5);
+    transition-delay: 0.8s;
+    margin-right: 500px;
+    margin-top: 30px;
+    /* transition-duration: 1s; */
+  }
